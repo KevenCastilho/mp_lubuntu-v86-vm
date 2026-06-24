@@ -1,28 +1,1311 @@
 ﻿{
-    "format":  "maniac-vm-v86-raw-parts-v1",
-    "generated_at":  "2026-06-23T23:02:53-03:00",
-    "system":  {
-                   "id":  "maniac-linux-jwm",
-                   "name":  "Maniac Linux JWM",
-                   "arch":  "i386",
-                   "base":  "Lubuntu 18.04.5 i386",
-                   "desktop":  "JWM"
-               },
+    "format":  "maniac-vm-v86-v1",
+    "generated_at":  "2026-06-23T23:32:00-03:00",
+    "profile":  {
+                    "provider":  "copy.sh",
+                    "profile_id":  "maniac-linux-jwm",
+                    "source_profile_url":  "local/maniac-linux-jwm",
+                    "source_revision":  ""
+                },
+    "runtime":  {
+                    "local_revision":  "7082c552d956f38b6d7e9ddc1cd4582955036772"
+                },
     "disk":  {
-                 "file":  "maniac-linux-jwm.raw",
+                 "type":  "hda",
+                 "base_path":  "maniac-linux-jwm.raw",
                  "size":  8589934592,
                  "sha256":  "ebb5b1d980a99e1119eb32cbf915fe89616ff36176bc2909b3a85ddf1196fa07",
-                 "use_parts":  true,
                  "chunk_size":  47185920,
+                 "use_parts":  true,
                  "part_count":  183,
-                 "part_pattern":  "maniac-linux-jwm.raw-{offset}-47185920",
-                 "last_part_can_be_smaller":  true
+                 "parts":  [
+                               {
+                                   "path":  "maniac-linux-jwm.raw-0-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "13d91d0f64debdf5f38e64baf6b000ff121f0a74f63008d187bd38fb1e50e080",
+                                   "start":  0,
+                                   "end":  47185920
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-47185920-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "8fa326bd4021ad276d5f2c20e5d7e0cfbf88a48d14f91cee2b750750bb12fa69",
+                                   "start":  47185920,
+                                   "end":  94371840
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-94371840-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "fdcc74d8e67e8ea9f2f67d62425016f407a54fcdbc5f0b93fdbe6c91540f4d3b",
+                                   "start":  94371840,
+                                   "end":  141557760
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-141557760-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "e5752dae7c3010d969cdbe1c788b2ab8bc407f9c560964fb2577a49ad80beb58",
+                                   "start":  141557760,
+                                   "end":  188743680
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-188743680-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  188743680,
+                                   "end":  235929600
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-235929600-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  235929600,
+                                   "end":  283115520
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-283115520-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  283115520,
+                                   "end":  330301440
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-330301440-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  330301440,
+                                   "end":  377487360
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-377487360-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "6cb4c4b9875a07af6cef68df5e67c6ae393a8b6be3e77f5ce2b040dbc208285c",
+                                   "start":  377487360,
+                                   "end":  424673280
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-424673280-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  424673280,
+                                   "end":  471859200
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-471859200-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  471859200,
+                                   "end":  519045120
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-519045120-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "a92a23af19fd4648789b41c1a37aff7851c7f7398bc6dda1e3f408655aec035e",
+                                   "start":  519045120,
+                                   "end":  566231040
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-566231040-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "ddc7095091cdcdfec96f16de54c78c523cb6acf132cdb1f6008ee6b9f836f30d",
+                                   "start":  566231040,
+                                   "end":  613416960
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-613416960-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "8d388fe5ae103c3becbf78d3d63fcb95d7e32c8e0bf071c81a96fd66c3e6c43f",
+                                   "start":  613416960,
+                                   "end":  660602880
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-660602880-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "545521383d3065dd3e0b065509ba724a2b4f92d34ad55efa4a1655cdd93dbd14",
+                                   "start":  660602880,
+                                   "end":  707788800
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-707788800-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "dc430001c0b5d2d8fadc89f5aff00c540fbe2a9189aa9e1f4b6d676577b747c9",
+                                   "start":  707788800,
+                                   "end":  754974720
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-754974720-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "988aecca9b112816abc8c809745771a7bfc8b81c24b345161fb9185f4710c239",
+                                   "start":  754974720,
+                                   "end":  802160640
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-802160640-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "566e7c683526748901e5c848d28409b5adc7bf2e1f34acc5a35cde5b366a86b7",
+                                   "start":  802160640,
+                                   "end":  849346560
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-849346560-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "89005cd6f93c9b74edc7edee35e9292e408fc15a51c02ab33d990916f3b4e727",
+                                   "start":  849346560,
+                                   "end":  896532480
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-896532480-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "4f2649c1624de90b8d81c65e480180affa620a1ad06017556bae36b5849d8d37",
+                                   "start":  896532480,
+                                   "end":  943718400
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-943718400-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "a0e1f8744d865c1f4816b89e5bcb75e3fe7297abed48df9cfbde602f945fe323",
+                                   "start":  943718400,
+                                   "end":  990904320
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-990904320-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "605a9101ecb3921b6ce0686ea08acd06f63be2716855d6d53014a325d95962ab",
+                                   "start":  990904320,
+                                   "end":  1038090240
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1038090240-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "abc0e1601acb8e877c43f76998d2e140f473ad180572c36c8f3ff93d49178af1",
+                                   "start":  1038090240,
+                                   "end":  1085276160
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1085276160-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "dccb782a5de894f24f5d76587cdc58f6eeb372f88e5960cd9b048b78ceb811da",
+                                   "start":  1085276160,
+                                   "end":  1132462080
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1132462080-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "1f0330a950ef278858e69074a356a3c3fb4b16830d9d80dc69ed2be333a5d11c",
+                                   "start":  1132462080,
+                                   "end":  1179648000
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1179648000-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "b3e2874fc7fffe35b36e633ee7b69e2149de6b62a77438b8c42997c36f36f0b4",
+                                   "start":  1179648000,
+                                   "end":  1226833920
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1226833920-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "b6c59d598fc395bb56df3e7a933a63f622e7b2b0f98301bae5dc3e34d59dfe20",
+                                   "start":  1226833920,
+                                   "end":  1274019840
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1274019840-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "96746e85350a7d7e340cea66cdaf6e36540fdc35ee50127c2ab707b9a712ae09",
+                                   "start":  1274019840,
+                                   "end":  1321205760
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1321205760-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "ae2334033fbf72834f2b3cd6b586fbe28d76ec262d3fbc7d789e30284aa01663",
+                                   "start":  1321205760,
+                                   "end":  1368391680
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1368391680-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "ef8e729f152f1cd0acf164059a3991c6e666a7cee12355aed6d96813462ef3b1",
+                                   "start":  1368391680,
+                                   "end":  1415577600
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1415577600-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "378b95928b5b343093b1064e8f6ca7cab6ee1005bccafb2bf2be3a106862eae8",
+                                   "start":  1415577600,
+                                   "end":  1462763520
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1462763520-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "42535bf8a3bb2cb229c3dba0259953c8687002e926ac37aff41799d85e75ce65",
+                                   "start":  1462763520,
+                                   "end":  1509949440
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1509949440-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "aca3782d72acaf0b8a44844f3064f93f71ec543e3edd2d9041a1606cd87c878e",
+                                   "start":  1509949440,
+                                   "end":  1557135360
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1557135360-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "e40e6f9f60d0b0ac647d5fe0023d1ac14985c35200b1b43ff766ed233afdcda7",
+                                   "start":  1557135360,
+                                   "end":  1604321280
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1604321280-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "daaf7f10eddb43752d42e64ccf3fe1aefee7d37a4d5a58eb7773b3908632fa5a",
+                                   "start":  1604321280,
+                                   "end":  1651507200
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1651507200-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "8a77ede0e50939d4b5cbb724abdbb0f63a15c2a957ce36a8024c99b26c8d0e34",
+                                   "start":  1651507200,
+                                   "end":  1698693120
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1698693120-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "459dd797f0ab5f7deca02adfc9536cdba642e116bd2a6c3cacda1daf1fdce284",
+                                   "start":  1698693120,
+                                   "end":  1745879040
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1745879040-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "24e3957ba8e5783aeebe87130b2246321ad49879f1f8a28a0a7187df04dbe0c7",
+                                   "start":  1745879040,
+                                   "end":  1793064960
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1793064960-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "92f3197a12f20d2bd0193805b4f7ba516eaa97a3abba3a60d0f3c181dc445da5",
+                                   "start":  1793064960,
+                                   "end":  1840250880
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1840250880-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "e66d1f39b69b3fe078ef6691fc80b1739b8e373cf22b9013e8b86033450deb22",
+                                   "start":  1840250880,
+                                   "end":  1887436800
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1887436800-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "e111ecd42de0a15cd914565ddd0a21cbb237bc0c4cf558a58518ab700f5d6eba",
+                                   "start":  1887436800,
+                                   "end":  1934622720
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1934622720-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "a7ca96959baa4307a3bcac1c18701e9134666bf831b866ff0876c13d8615bf77",
+                                   "start":  1934622720,
+                                   "end":  1981808640
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-1981808640-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  1981808640,
+                                   "end":  2028994560
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2028994560-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "4ddb108895d9c971599c74f27f0f826d3946d73911943bcc035269bef15f6e02",
+                                   "start":  2028994560,
+                                   "end":  2076180480
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2076180480-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "2afb99eb509ab7332ca513ce6a2952b8daed207e473ebef7b15c0f51c1bf67bf",
+                                   "start":  2076180480,
+                                   "end":  2123366400
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2123366400-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "31388adc139b28a5ed0a41e8cef580227e69b177d23468d043e28680b1f0633b",
+                                   "start":  2123366400,
+                                   "end":  2170552320
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2170552320-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "665dd1c8eb3b38a1b11731f14b37c56a458aeedcade780ad45d07a2f19227568",
+                                   "start":  2170552320,
+                                   "end":  2217738240
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2217738240-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "42607a1b2016fdf03ae8ec6f110718f1bfa64dd06bfc99f3ecf8dce1d6a9cb36",
+                                   "start":  2217738240,
+                                   "end":  2264924160
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2264924160-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "078ed90c7e26ca935e209c5f746a4fb4dfddb1eacc14d24e414a3ece643742e6",
+                                   "start":  2264924160,
+                                   "end":  2312110080
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2312110080-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "37518c35a0cf80e1c49e3932e29e32277e59190c26b82f04c5145b2247b3938d",
+                                   "start":  2312110080,
+                                   "end":  2359296000
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2359296000-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "5121e933de65147e0167dc63dbe3e4952110307231fbc5c4199e734301c1e653",
+                                   "start":  2359296000,
+                                   "end":  2406481920
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2406481920-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "e894a4e53f9ca5ac07bf87edd9acc2b4b1e4b89e34b4aacb3cf66174a8684ae2",
+                                   "start":  2406481920,
+                                   "end":  2453667840
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2453667840-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c99582ec6de83793ef83b73e4affc9c69c5afbb7fee7e11b8b81e0e4d6969537",
+                                   "start":  2453667840,
+                                   "end":  2500853760
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2500853760-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "946b651e4f373a9bd341c1d045b5f8ef2e6f3c669738d2c73deff373695cab1c",
+                                   "start":  2500853760,
+                                   "end":  2548039680
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2548039680-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "902d71009a167b3416530b295f8f6f3a17fd03dae8097e30842418b9e18f8902",
+                                   "start":  2548039680,
+                                   "end":  2595225600
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2595225600-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "de7cfa4370b65f55e020c07c08210f397191931178a8c70881030adcd6005d96",
+                                   "start":  2595225600,
+                                   "end":  2642411520
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2642411520-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "aef9e9a18b023b73185098551b40fb9e00e1dd71989124aee10e0e9741fb3d17",
+                                   "start":  2642411520,
+                                   "end":  2689597440
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2689597440-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "d7b14f08fae753247fe22d2673e00da119a33fcafbadde4f4609f59f88074034",
+                                   "start":  2689597440,
+                                   "end":  2736783360
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2736783360-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "932924cce4f4a66f935ca718e0b92d0d38d2b036e69b7b92a213ba2da55ba389",
+                                   "start":  2736783360,
+                                   "end":  2783969280
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2783969280-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "b37693f8e7ccc757ec15e5a1ba1e40bac1e209ad13f6ca5f534edd531189503f",
+                                   "start":  2783969280,
+                                   "end":  2831155200
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2831155200-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "bfe81d96a45cdc56cac11efe87c09af93c454a70c25288177186c95b628f9ace",
+                                   "start":  2831155200,
+                                   "end":  2878341120
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2878341120-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "871715271801959ae697fb3a8a86c2a5faea465a1992070ec02f0a2969e4a38f",
+                                   "start":  2878341120,
+                                   "end":  2925527040
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2925527040-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "1c1290a10f2e44ecc4a7c3f823ff0c9a7e40dc142e26e422c25f85e97e250fbd",
+                                   "start":  2925527040,
+                                   "end":  2972712960
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-2972712960-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "d1245e36d4afe88ec829fb92b504cea22e75673f2a0321782f45f912b1c4ce50",
+                                   "start":  2972712960,
+                                   "end":  3019898880
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3019898880-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c47a999304de9396145827df7ad18aa1d2bf3011013a83767acf9623cf2d8682",
+                                   "start":  3019898880,
+                                   "end":  3067084800
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3067084800-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "4955ffa988f9eef79ad9d7ee9951195db23728d3900ca39e152756a9c1f7ad7e",
+                                   "start":  3067084800,
+                                   "end":  3114270720
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3114270720-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "499e1e7eda5a35443be389c2f102c5c4124ee86fbcbf486b1e6eaee45503863d",
+                                   "start":  3114270720,
+                                   "end":  3161456640
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3161456640-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "3ebe4e58c90af4e0fb1eda2e79b71d0d5a25403c53b34222f58378644488bd47",
+                                   "start":  3161456640,
+                                   "end":  3208642560
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3208642560-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "3c42fe451858cdb4091a20ec288cd797470666c5eed74ef352efd96a3ca71a86",
+                                   "start":  3208642560,
+                                   "end":  3255828480
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3255828480-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "211c44e59ba5cd03d02cee4d9bc9a74aeacb3e6779136f6f2d7086d3bcd32a69",
+                                   "start":  3255828480,
+                                   "end":  3303014400
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3303014400-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "f937885cbd25e07e895e7cfe317c4ff0731f0293227fa2f7eaf5c1b30eacada2",
+                                   "start":  3303014400,
+                                   "end":  3350200320
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3350200320-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "03d0b9c3292db23f3cd242ff56d66aa0f95f8f823cf052d8aa10eda2b1bed4ee",
+                                   "start":  3350200320,
+                                   "end":  3397386240
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3397386240-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "7bab8bce477f29a0b266c53142fad8386062546c35a83d05bbffe2aa939f6880",
+                                   "start":  3397386240,
+                                   "end":  3444572160
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3444572160-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "fc026e1231b1249e4299026004b503c501428915a5cda087ab226a24f9f95d5a",
+                                   "start":  3444572160,
+                                   "end":  3491758080
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3491758080-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "dfe1a1bc4c25fe9f0fe4fb24c6dc348de52abaed8637a6775dd3af568839d0ca",
+                                   "start":  3491758080,
+                                   "end":  3538944000
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3538944000-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "97a1460267bfd268381b3addbd1b6ee7d8760efbb12d84cb44d6e53862133e6b",
+                                   "start":  3538944000,
+                                   "end":  3586129920
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3586129920-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "ccd5e95cd66d1b44b4c3378871b5816e2f2c4aee5aa8bece4c3abc9deceb6c1d",
+                                   "start":  3586129920,
+                                   "end":  3633315840
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3633315840-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "4eb2d46eb6fdad791f834d3e12125c993c6b37c1e5a685668b23c2ee2f209edf",
+                                   "start":  3633315840,
+                                   "end":  3680501760
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3680501760-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "504cc14f33fff3905cb1394c85361db6d73e43e45e72de9e0f4e87c5f6724608",
+                                   "start":  3680501760,
+                                   "end":  3727687680
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3727687680-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "5fd5fc7630166384bb0575eb45d35b4a044c7663cc7d8293fced25616ec6c6ca",
+                                   "start":  3727687680,
+                                   "end":  3774873600
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3774873600-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "2cd91c6880e1be94b090cf2c738a830a14c70da8558bb82c8b0b3d9d00971623",
+                                   "start":  3774873600,
+                                   "end":  3822059520
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3822059520-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  3822059520,
+                                   "end":  3869245440
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3869245440-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "71adedb289aa1cc12e45aa4dc626d63ee766b2f88b02dba536bab30360bc25a3",
+                                   "start":  3869245440,
+                                   "end":  3916431360
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3916431360-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "5a2ad971ad1fcecc6c346d45f7e53455929c9f39733f10562d6baeae3d44ecdf",
+                                   "start":  3916431360,
+                                   "end":  3963617280
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-3963617280-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "9721c516954054d568658308085d7b752a3983dc516725efdc490a3ceb9c68de",
+                                   "start":  3963617280,
+                                   "end":  4010803200
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4010803200-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "134f10e1fbb329c77aa629440c47c84e5d1d9aaf1f384837a4235bc27a893f40",
+                                   "start":  4010803200,
+                                   "end":  4057989120
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4057989120-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "bfc2b69b2bae7fa9ca2bbbfb2b7a44fec0030c6f89ee27fa9b9c2beb8cce60ca",
+                                   "start":  4057989120,
+                                   "end":  4105175040
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4105175040-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "747c29a5f6c627951d67d40ef9ef8259b0dc0dba70619374c40947d016c34c4a",
+                                   "start":  4105175040,
+                                   "end":  4152360960
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4152360960-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "046856da827853a6489b2e5e32e9c2c4534daf0875f7e44d66f9e7be0998d435",
+                                   "start":  4152360960,
+                                   "end":  4199546880
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4199546880-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "b094d643df9ae8e0d2264555dc40ee3983abdd61a5d1e8816ff45fc456447765",
+                                   "start":  4199546880,
+                                   "end":  4246732800
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4246732800-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "9df0f1cd836b733f9b0f7a6201c7e4365441a6f9edf224e10bef8f08b02f5a06",
+                                   "start":  4246732800,
+                                   "end":  4293918720
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4293918720-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "a7169472fee35ab2fb674cbdaa44738572eacead36e9338752c28f497906bd22",
+                                   "start":  4293918720,
+                                   "end":  4341104640
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4341104640-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "b53a310ddad9f238540964eb6f5b43315b988976113d8e8af8e5410d2810c2a6",
+                                   "start":  4341104640,
+                                   "end":  4388290560
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4388290560-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "b8ce5ffa5a765bb4f3315eae062c1dac164fa02a4f10424687e0a83c9dc5371c",
+                                   "start":  4388290560,
+                                   "end":  4435476480
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4435476480-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "aeee67684783b4b9ea2d8f84ea1e4db250ecee4797d57cea7b483ee5e4d9b6a0",
+                                   "start":  4435476480,
+                                   "end":  4482662400
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4482662400-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "3e4f4926d5b96198a04d5f4d6f8adc83b8c7cb02438adb6cd3a6583a3285871a",
+                                   "start":  4482662400,
+                                   "end":  4529848320
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4529848320-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "0ed2eec03ee3cec309416da6a6b9a41946b0898b506078917de01acdcb67e0a8",
+                                   "start":  4529848320,
+                                   "end":  4577034240
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4577034240-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "287ef3dcbb122b3455a2bbb52802ba1d45ed3c43d12c01b17d5e582f1f06075c",
+                                   "start":  4577034240,
+                                   "end":  4624220160
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4624220160-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "895e70f1cc57e6ab3be7c9a95b24ca6ec254f4e0e2f4641999d17a088cd8a9e2",
+                                   "start":  4624220160,
+                                   "end":  4671406080
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4671406080-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "0c1a12d1473e363cad1eb0a5d20f7d2997a8283e849a08584b3a4debaff54e1e",
+                                   "start":  4671406080,
+                                   "end":  4718592000
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4718592000-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "010e3e67d7fd9973bc5ad6b11a684358dce7dde4cf99e691b446663f518570d2",
+                                   "start":  4718592000,
+                                   "end":  4765777920
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4765777920-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "18b230035f98299d7e1dd0b2f638f504258bb198a0975056de15263167d9f47c",
+                                   "start":  4765777920,
+                                   "end":  4812963840
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4812963840-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "4f20267267cb077fac75c185a39ec429df0eae79c43d34500bf6c1fcf514b77c",
+                                   "start":  4812963840,
+                                   "end":  4860149760
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4860149760-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "6e102a81c3df5a1f3712d13bdf08206a6b5aa9fc2f222ba10523080ca3b0249f",
+                                   "start":  4860149760,
+                                   "end":  4907335680
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4907335680-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c95909c10eed111cb2320fe079fdad7e5d85330f470c2fb008c0a5d2c9252db2",
+                                   "start":  4907335680,
+                                   "end":  4954521600
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-4954521600-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "ca12a6d200629047a2bd7d65708981ec6c59e6e2083503f32c82dc1848168c2e",
+                                   "start":  4954521600,
+                                   "end":  5001707520
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5001707520-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "7770ae118fd4df1b975bb2373b3d0bc33a95587ff660af42096ef65fb1c6e22c",
+                                   "start":  5001707520,
+                                   "end":  5048893440
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5048893440-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "6bdae9776334336636119d5547a595d0cc8222128ce15f48567f250c361a6554",
+                                   "start":  5048893440,
+                                   "end":  5096079360
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5096079360-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "80436378cf8929ed6ee1e99195564cdb7b727a9b54d7ea22f28778a12104a8f2",
+                                   "start":  5096079360,
+                                   "end":  5143265280
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5143265280-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "5be74c622920859b8a834e87199cc2f8d0aeb079d88cd52e1a61201e970e50d5",
+                                   "start":  5143265280,
+                                   "end":  5190451200
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5190451200-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "59d9a53122f6efe549b1f6c4e4696bd9a5d3f25281b940efcfe1e742bf77227a",
+                                   "start":  5190451200,
+                                   "end":  5237637120
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5237637120-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "f033f06f302fbc9fc88bab4edc3d676f1f8cba4d54419e9f3ddf6800a6607316",
+                                   "start":  5237637120,
+                                   "end":  5284823040
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5284823040-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "79949a7a6558fc60d04eb0fab7e65a7497abe071151dfc61bdbc87748e2a79c2",
+                                   "start":  5284823040,
+                                   "end":  5332008960
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5332008960-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "bb4b98254a8bf901bb416ab6603643e700c9352dbeb0830d99d2baa3914cb3d7",
+                                   "start":  5332008960,
+                                   "end":  5379194880
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5379194880-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "7f7e105c8ac942f1e2c3d5a5cbec860231a5c5dfb5a0016d12057eff94ee86dd",
+                                   "start":  5379194880,
+                                   "end":  5426380800
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5426380800-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "475add005402d207d25540d61080ee5e891c5e16d40460624a4be31197b966e9",
+                                   "start":  5426380800,
+                                   "end":  5473566720
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5473566720-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "539ffc240d4a3b8be4070871595ef4564b5cf13d600851c84b08b9c27a1d83cd",
+                                   "start":  5473566720,
+                                   "end":  5520752640
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5520752640-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "d1e29b907abdb5a6411c3e0047d476352845867a06484c6b4b54dad7ff8553ae",
+                                   "start":  5520752640,
+                                   "end":  5567938560
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5567938560-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "8138c1b66a102ed23635e6d7f1dfac6050790a169208d6e7ad12bdce1ecf51a3",
+                                   "start":  5567938560,
+                                   "end":  5615124480
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5615124480-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "f4e784ae5068835fa5970e7be5630d4f6606a3ad380abcc1206b2121e4779607",
+                                   "start":  5615124480,
+                                   "end":  5662310400
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5662310400-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "ebfeed5ecf9e348614a5569977eb6c5f630524a01400fa65ad4febe8bc470979",
+                                   "start":  5662310400,
+                                   "end":  5709496320
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5709496320-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "a5dfd04e519e580a8009b78938bc5bbd2e1916a95f4ab185188553834510195c",
+                                   "start":  5709496320,
+                                   "end":  5756682240
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5756682240-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "f91578ebefc9568fcb205495e95f3ce738dcbbca670df066f12a8aea9bf0ec78",
+                                   "start":  5756682240,
+                                   "end":  5803868160
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5803868160-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "4d06a636f98fc2d1214283a29ffa87825aa8792cac87cb7bcb2f1ad3d8da9843",
+                                   "start":  5803868160,
+                                   "end":  5851054080
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5851054080-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "e3c258e2dee0d6331eb3cc915c40087971435f2371a9425828cef8364226817d",
+                                   "start":  5851054080,
+                                   "end":  5898240000
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5898240000-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "59d48476b5ac94ee2f576b7ae3777d097f35c85392e296b369469a801b9b811f",
+                                   "start":  5898240000,
+                                   "end":  5945425920
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5945425920-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "06828c25ef6d5699f16eda9957c1998efce5dc297ddcc253832377ccdd321b5f",
+                                   "start":  5945425920,
+                                   "end":  5992611840
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-5992611840-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "33d8088e094a82580703f7fefebfa3fe63141198b6e4f761204abcb07aaa5007",
+                                   "start":  5992611840,
+                                   "end":  6039797760
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6039797760-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "de0a7cc90cd36b0875e0371491d3c81564c81f954bcc46427ce61a925c4ea17a",
+                                   "start":  6039797760,
+                                   "end":  6086983680
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6086983680-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "293b7420f42d606855bf5e611d06038439c91e954b47288718c88644f5e26b79",
+                                   "start":  6086983680,
+                                   "end":  6134169600
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6134169600-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "ddbd1d346470e40d056a6f3cb156f6a8588b36a5ea1f92b206ac9b0aea286d89",
+                                   "start":  6134169600,
+                                   "end":  6181355520
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6181355520-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "85a34519c0aee450d897a74e86fa3a4ab06c27bd791b7b1126ca5b6d4fc3a1f7",
+                                   "start":  6181355520,
+                                   "end":  6228541440
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6228541440-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "b465ca9d07368aeb78299cbd45983915bf18e5a6bfc111b2954bfb9c47e111b0",
+                                   "start":  6228541440,
+                                   "end":  6275727360
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6275727360-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "b10c7c291910aa636ff7d43bde2c197e6b3e8855ee53dedefe0c46d36ae3fe8c",
+                                   "start":  6275727360,
+                                   "end":  6322913280
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6322913280-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "19a85f1f21a5e428c46d1d9b0b57685bbf7744b2bade6cce2d2f73f45195e4bd",
+                                   "start":  6322913280,
+                                   "end":  6370099200
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6370099200-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "061e4103116186f64ee1abf3dba604837611f998739e05771c9ec29b41d74b08",
+                                   "start":  6370099200,
+                                   "end":  6417285120
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6417285120-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "e6b9b7ad2a802a8f3f4f72c44301e463c9be380f308f6123d12a463fc88d18f8",
+                                   "start":  6417285120,
+                                   "end":  6464471040
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6464471040-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c52f0d0ee0932d794ef8c12a43887f27883e009360a7a364c67614c556f23e1f",
+                                   "start":  6464471040,
+                                   "end":  6511656960
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6511656960-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  6511656960,
+                                   "end":  6558842880
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6558842880-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "749188b810e83bc04c2c69d6a76c2b1aa59b5122ae3332dfc2c603cc94c735db",
+                                   "start":  6558842880,
+                                   "end":  6606028800
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6606028800-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "236a8c4ef6772b68a85a522a5ce55aaf1f77e6a09383bb2ae8747fe2be8e8820",
+                                   "start":  6606028800,
+                                   "end":  6653214720
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6653214720-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "4a26a214fe7f878f3bb6f7566ad08c86cb2118c78abdfb7b8bb7bdcbb66d14aa",
+                                   "start":  6653214720,
+                                   "end":  6700400640
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6700400640-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "65ef2263e578a663dee69b103dd4dc7706cb1c8fceee991e583027778709d4b9",
+                                   "start":  6700400640,
+                                   "end":  6747586560
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6747586560-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "bb2f984cef00b0ed549ebd27681f0f891d2379da4102496e407724cefb230bf1",
+                                   "start":  6747586560,
+                                   "end":  6794772480
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6794772480-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "f7e1f20633801ffb5eb80ea8a919672349b90d4550e1d111417153251da158bd",
+                                   "start":  6794772480,
+                                   "end":  6841958400
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6841958400-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "6c5abc2faa23d94bfdc9e9e9b0886ef30e0f0a547ffdd58c3d1c32f45404a298",
+                                   "start":  6841958400,
+                                   "end":  6889144320
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6889144320-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "97331590371eb4054d814b718c2b94acad1eeb23cae087c69a76f828720bf83a",
+                                   "start":  6889144320,
+                                   "end":  6936330240
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6936330240-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "797cf0c27fde092e754bb2c74a93c3c68f1a20d4316954a2e5a82cd064793d35",
+                                   "start":  6936330240,
+                                   "end":  6983516160
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-6983516160-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "780b06275f8fe1dea71a815803b17b084b841b4d6f298668e4958fa4c9bd6244",
+                                   "start":  6983516160,
+                                   "end":  7030702080
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7030702080-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "bea138d4b498342bb708fdf181db6a05375eb75a973ce968c22334c399568f77",
+                                   "start":  7030702080,
+                                   "end":  7077888000
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7077888000-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "f1606e7139057bdc1062ce8927e728ff88d1e4f77032bba986df830cccb76b1f",
+                                   "start":  7077888000,
+                                   "end":  7125073920
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7125073920-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "7619fd04e829db08ce4dc51d72d75558530cf31d0f701ccbac6988afbbd87955",
+                                   "start":  7125073920,
+                                   "end":  7172259840
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7172259840-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "e38449bd5f8ace2fd7cdcc5b66ba9f2f4465e85c96a075775a47474741d3dec3",
+                                   "start":  7172259840,
+                                   "end":  7219445760
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7219445760-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "b127e61dc121a5ce6253a555dc21f3579e62df2d3c01868b26c44292b5b3d627",
+                                   "start":  7219445760,
+                                   "end":  7266631680
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7266631680-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "bdd77646e58c056711ab67c4807c414bd14c29a4cf72380cab04fb9f4c09c731",
+                                   "start":  7266631680,
+                                   "end":  7313817600
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7313817600-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7313817600,
+                                   "end":  7361003520
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7361003520-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "26ec7e6b3ba8ef25afed4c0ab65364c4fd352c22f7acdd9edda10f3a9f76a4b7",
+                                   "start":  7361003520,
+                                   "end":  7408189440
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7408189440-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7408189440,
+                                   "end":  7455375360
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7455375360-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7455375360,
+                                   "end":  7502561280
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7502561280-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7502561280,
+                                   "end":  7549747200
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7549747200-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7549747200,
+                                   "end":  7596933120
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7596933120-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7596933120,
+                                   "end":  7644119040
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7644119040-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7644119040,
+                                   "end":  7691304960
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7691304960-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7691304960,
+                                   "end":  7738490880
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7738490880-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7738490880,
+                                   "end":  7785676800
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7785676800-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7785676800,
+                                   "end":  7832862720
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7832862720-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7832862720,
+                                   "end":  7880048640
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7880048640-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7880048640,
+                                   "end":  7927234560
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7927234560-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7927234560,
+                                   "end":  7974420480
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-7974420480-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  7974420480,
+                                   "end":  8021606400
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8021606400-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8021606400,
+                                   "end":  8068792320
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8068792320-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8068792320,
+                                   "end":  8115978240
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8115978240-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8115978240,
+                                   "end":  8163164160
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8163164160-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8163164160,
+                                   "end":  8210350080
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8210350080-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8210350080,
+                                   "end":  8257536000
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8257536000-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8257536000,
+                                   "end":  8304721920
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8304721920-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8304721920,
+                                   "end":  8351907840
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8351907840-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8351907840,
+                                   "end":  8399093760
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8399093760-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8399093760,
+                                   "end":  8446279680
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8446279680-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8446279680,
+                                   "end":  8493465600
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8493465600-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8493465600,
+                                   "end":  8540651520
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8540651520-47185920",
+                                   "size":  47185920,
+                                   "sha256":  "c5167043575395bd810aa4b5246679f794c527b598dc21befba0cbb865137dd2",
+                                   "start":  8540651520,
+                                   "end":  8587837440
+                               },
+                               {
+                                   "path":  "maniac-linux-jwm.raw-8587837440-47185920",
+                                   "size":  2097152,
+                                   "sha256":  "5647f05ec18958947d32874eeb788fa396a05d0bab7c1b71f112ceb7e9b31eee",
+                                   "start":  8587837440,
+                                   "end":  8589934592
+                               }
+                           ]
              },
     "v86":  {
-                "memory_size":  2147483648,
+                "memory_size":  1073741824,
                 "vga_memory_size":  67108864,
                 "boot_order":  128,
-                "disk_bus":  "ide",
                 "network_adapter":  "ne2k_pci"
             }
 }
