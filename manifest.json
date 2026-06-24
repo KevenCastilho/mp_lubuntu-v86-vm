@@ -1,0 +1,28 @@
+﻿{
+    "format":  "maniac-vm-v86-raw-parts-v1",
+    "generated_at":  "2026-06-23T23:02:53-03:00",
+    "system":  {
+                   "id":  "maniac-linux-jwm",
+                   "name":  "Maniac Linux JWM",
+                   "arch":  "i386",
+                   "base":  "Lubuntu 18.04.5 i386",
+                   "desktop":  "JWM"
+               },
+    "disk":  {
+                 "file":  "maniac-linux-jwm.raw",
+                 "size":  8589934592,
+                 "sha256":  "ebb5b1d980a99e1119eb32cbf915fe89616ff36176bc2909b3a85ddf1196fa07",
+                 "use_parts":  true,
+                 "chunk_size":  47185920,
+                 "part_count":  183,
+                 "part_pattern":  "maniac-linux-jwm.raw-{offset}-47185920",
+                 "last_part_can_be_smaller":  true
+             },
+    "v86":  {
+                "memory_size":  2147483648,
+                "vga_memory_size":  67108864,
+                "boot_order":  128,
+                "disk_bus":  "ide",
+                "network_adapter":  "ne2k_pci"
+            }
+}
